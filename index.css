@@ -1,0 +1,96 @@
+body {
+    font-family: Merriweather Sans ;
+font-size: 12px;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+  "main main"
+  "footer footer"
+    ;
+    grid-template-columns: 0.3fr 1fr;
+    background-color: #1f1f22;
+    color:  #cdc7ee;
+
+}
+    
+main {
+    grid-area: main;
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+
+}
+.left {
+    flex-direction: column;
+
+
+
+}
+
+.back_block {
+    display: flex;
+    flex-direction: column;
+    background-color: #302F3D ;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.block1{
+    align-items: center;
+}
+
+.block_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image_profile {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 2.5px solid rgb(4, 214, 4) ;
+}
+.my-onix {
+
+    display: flex;
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista {
+   
+}
+
+.tbody1 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+padding: 15px;
+
+}
+
+.tbody1 >* {
+    background-color: rgb(170, 96, 103);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+    
+    }
+
+/*  background-color: rgb(170, 96, 103);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+    
+    
